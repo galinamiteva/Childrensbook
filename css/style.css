@@ -1,0 +1,52 @@
+main{
+    display: grid;
+    gap:1rem;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.library{
+    display: flex;
+    justify-content: center;
+}
+
+.loneBook {
+    height: 14rem;
+    width: 10rem;
+    display: flex;   
+    color: white;
+}
+
+.loneBook .about{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.loneBook aside {
+    width: .4rem;
+    background-color: rgb(49, 45, 45);
+    margin-left: 1rem;
+}
+
+.darkBg{
+        background-color: rgb(26,26,26);
+        color:white;
+}
+
+.bookInfo{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:2rem;
+    margin: 0 auto;
+    max-width: 80vw;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+h2.black{
+    color:black
+    
+}

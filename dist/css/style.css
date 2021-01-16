@@ -1,0 +1,19 @@
+main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.library{
+    display: flex;
+    justify-content: center;
+}
+
+.loneBook {
+    width: 10rem;
+}
+
+.loneBook aside {
+
+}
